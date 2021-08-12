@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RichDomainsUsingPOO.Domain", "RichDomainsUsingPOO.Domain\RichDomainsUsingPOO.Domain.csproj", "{B8C007A8-BF17-4E9F-B0E3-B2364DFCFF88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RichDomainsUsingPOO.Test", "RichDomainsUsingPOO.Test\RichDomainsUsingPOO.Test.csproj", "{B9C0847E-C859-47FB-9B36-4A8296E0530E}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8C007A8-BF17-4E9F-B0E3-B2364DFCFF88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8C007A8-BF17-4E9F-B0E3-B2364DFCFF88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8C007A8-BF17-4E9F-B0E3-B2364DFCFF88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8C007A8-BF17-4E9F-B0E3-B2364DFCFF88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9C0847E-C859-47FB-9B36-4A8296E0530E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9C0847E-C859-47FB-9B36-4A8296E0530E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9C0847E-C859-47FB-9B36-4A8296E0530E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9C0847E-C859-47FB-9B36-4A8296E0530E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
